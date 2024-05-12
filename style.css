@@ -19,13 +19,21 @@
   .row-cols-3 .col {
     width: 100%;
     padding: 20px;
+    margin: 0 auto;
+    text-align: center;
   }
 
   .main-content {
     text-align: center;
     justify-content: center;
+    margin: auto;
   }
 }
 
 @media screen and (max-width: 640px) {
+  .main-content{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+  }
 }
